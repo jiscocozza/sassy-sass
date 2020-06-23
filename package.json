@@ -1,0 +1,17 @@
+{
+  "name": "probando-npm",
+  "version": "1.0.0",
+  "description": "Estoy aprendiendo mucho",
+  "main": "index.js",
+  "scripts": {
+    "prueba": "echo \"Hola mundo!\" && exit 0",
+    "dev": "node-sass -w sitio/scss -o sitio/css --output-style=\"expanded\" --source-map=true",
+    "prod": "node-sass sitio/scss -o sitio/css --output-style=\"compact\""
+  },
+  "author": "juaniscocozza",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "node-sass": "^4.14.1"
+  }
+}
