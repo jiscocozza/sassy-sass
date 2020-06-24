@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Estoy aprendiendo mucho",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jiscocozza/sassy-sass.git"
+  },
   "scripts": {
     "prueba": "echo \"Hola mundo!\" && exit 0",
     "dev": "node-sass -w sitio/scss -o sitio/css --output-style=\"expanded\" --source-map=true",
